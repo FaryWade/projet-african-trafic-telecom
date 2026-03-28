@@ -4,7 +4,7 @@
 Pipeline d'analyse Big Data serverless sur AWS pour analyser les données de trafic télécom en Afrique (appels, SMS, Data, Mobile Money).
 
 ## Architecture
-- **Amazon S3** : Data lake (raw/ et processed/)
+- **Amazon S3** : Data lake (raw et processed)
 - **AWS Glue Crawler** : Catalogage automatique des données
 - **AWS Glue ETL** : Transformation CSV → Parquet (compression Snappy)
 - **Amazon Athena** : Requêtes SQL analytiques
